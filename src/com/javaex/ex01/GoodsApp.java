@@ -24,31 +24,5 @@ public class GoodsApp {
 		cup.setPrice(2000);
 		
 		cup.showInfo();
-		
-		// System.out.println(camera.getName());
-		// System.out.println(camera.getPrice());
-		
-		/* 
-		camera.name= "니콘";
-		camera.price= 400000;
-		
-		Goods computer= new Goods();
-		computer.name= "LG그램";
-		computer.price= 900000;
-		
-		Goods cup= new Goods();
-		cup.name= "머그컵";
-		cup.price= 2000;
-		
-		System.out.println(camera.name);
-		System.out.println(camera.price);
-		
-		System.out.println(computer.name);
-		System.out.println(computer.price);
-		
-		System.out.println(cup.name);
-		System.out.println(cup.price);
-		
-		*/
 	}
 }
