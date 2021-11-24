@@ -8,7 +8,8 @@ public class MathApp {
 		
 		
 		System.out.println(math.plus(3, 2));
-		
-
+		System.out.println(math.plus(32.3, 72.5));
+		System.out.println(math.plus(3, 42.5));
+		System.out.println(math.plus(12.7, 6));
 	}
 }
