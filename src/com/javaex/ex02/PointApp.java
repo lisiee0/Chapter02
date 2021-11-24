@@ -22,7 +22,8 @@ public class PointApp {
 		
 		// p3.setX(44);
 		// p3.setY(7);
-		
+		p3.draw(true);
+		p3.draw(false);
 		p3.draw();
 	}
 }

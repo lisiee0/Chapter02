@@ -25,5 +25,11 @@ public class SongApp {
 		Song s2= new Song("BIGBANG", "거짓말", "Alway", 2007, 2, "G-DRAGON");
 		
 		System.out.println(s2.toString());
+		
+		Song s3= new Song("버스커버스커", "벚꽃엔딩", "버스커버스커1집", 2012, 4, "장범준");
+		
+		System.out.println(s3.toString());
+		
+		
 	}
 }

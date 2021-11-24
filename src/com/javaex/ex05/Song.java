@@ -14,10 +14,10 @@ public class Song {
 	
 	//생성자
 	public Song() {
-		System.out.println("default");
+		
 	}
 	public Song(String artist, String title, String album, int year, int track, String composer) {
-		System.out.println("6m");
+		
 		this.artist= artist;
 		this.title= title;
 		this.album= album;
