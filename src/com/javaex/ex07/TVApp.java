@@ -10,7 +10,7 @@ public class TVApp {
 		System.out.println(" ");
 		
 		tv.power(true);
-		System.out.println("TV turn on.");
+		System.out.println("TV turn on");
 		System.out.println(tv.status());
 		System.out.println(" ");
 		

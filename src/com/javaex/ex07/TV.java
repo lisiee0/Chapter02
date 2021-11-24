@@ -26,7 +26,16 @@ public class TV {
 	public int getVolume() {
 		return volume;
 	}
+	
+	public boolean isPower() {
+		return power;
+	}
+	
+	
 	// 메소드 
+	public void setPower(boolean power) {
+		this.power = power;
+	}
 
 	public void power(boolean on) {
 		if(on==true) {
@@ -96,6 +105,4 @@ public class TV {
 	public String status() {
 		return "TV [channel= " + channel + ", volume= " + volume + ", power= " + power + "]";
 	}
-
-
 }
