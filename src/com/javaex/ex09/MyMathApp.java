@@ -2,8 +2,6 @@ package com.javaex.ex09;
 
 public class MyMathApp {
 
-	
-
 		//필드 
 		
 		//생성자
