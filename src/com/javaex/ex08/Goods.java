@@ -6,15 +6,17 @@ public class Goods {
 	// 필드
 	private String name;
 	private int price;
+	private static int totalCount;
 	
 	// 생성자
 	public Goods() {
-		
+		this.totalCount++;
 	}
 
 	public Goods(String name, int price) {
 		this.name = name;
 		this.price = price;
+		this.totalCount++;
 	}
 
 	
@@ -36,10 +38,11 @@ public class Goods {
 	}
 
 	
-	//메소드 일반
+	// 메소드 일반
 	@Override
 	public String toString() {
-		return "Goods [name= " + name + ", price= " + price + "]";
+		return "Goods [name= " + name + ", price= " + price + ", totalCount= " + totalCount + "]";
 	}
 
+	
 }
