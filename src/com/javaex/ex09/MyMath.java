@@ -3,7 +3,7 @@ package com.javaex.ex09;
 public class MyMath {
 
 	//필드 
-	
+	private static double PI= 3.14159;
 	//생성자
 	
 	//메소드 g/s
@@ -22,9 +22,9 @@ public class MyMath {
 		return a+b;
 	}
 	public static double circleArea(int radius) {
-		return radius*radius*3.14;
+		return radius*radius*PI;
 	}
 	public static double circle(int radius) {
-		return (radius+radius)*3.14;
+		return (radius+radius)*PI;
 	}
 }
