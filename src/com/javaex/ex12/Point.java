@@ -9,12 +9,13 @@ public class Point {
 	
 	// 생성자
 	public Point() {
-		
+		System.out.println("test-Point()");
 	}
 	
 	public Point(int x, int y) {
 		this.x = x;
 		this.y = y;
+		System.out.println("test-Point(2)");
 	}
 
 	// 메소드 g/s
