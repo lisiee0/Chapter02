@@ -14,11 +14,11 @@ public class Student extends Person {
 	}
 	
 	public Student(String name, int age, String schoolName) {
-		/*  Person의 필드를 private으로 설정하면 사용X
+		//  Person의 필드를 private으로 설정하면 사용X
 		super.name= name;
 		super.age= age;
-		*/
-		super(name, age);
+		
+		//super(name, age);
 		this.schoolName= schoolName;
 		System.out.println("student(3)");
 	}
