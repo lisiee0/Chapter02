@@ -8,13 +8,13 @@ public class Person {
 	
 	//생성자
 	public Person() {
-		
+		System.out.println("Person()");
 	}
 	public Person(String name, int age) {
 		this.name = name;
 		this.age = age;
+		System.out.println("Person(2)");
 	}
-
 
 	//메소드 g/s
 	public String getName() {
@@ -38,7 +38,7 @@ public class Person {
 	public void showInfo() {
 		// name      this.name      getName()    this.getName() 비교
 		System.out.println("==============================");
-		System.out.println("이름: "+this.name);
+		System.out.println("이름: "+name);
 		System.out.println("나이: "+age);
 		System.out.println("==============================");
 		System.out.println("");
