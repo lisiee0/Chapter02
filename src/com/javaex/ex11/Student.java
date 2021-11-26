@@ -33,5 +33,13 @@ public class Student extends Person {
 	@Override
 	public String toString() {
 		return "Student [schoolName=" + schoolName + "]";
-	}	
+	}
+	public void showInfo2() {
+		System.out.println("********************************");
+		System.out.println("이름: "+name);  // super.name 가능
+		System.out.println("나이: "+age);
+		System.out.println("학교: "+schoolName);
+		System.out.println("********************************");
+		System.out.println("");
+	}
 }
