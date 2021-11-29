@@ -34,7 +34,7 @@ public class Student extends Person {
 	public String toString() {
 		return "Student [schoolName=" + schoolName + "]";
 	}
-	public void showInfo2() {
+	public void showInfo() { // 전에 쓰던 메소드랑 이름 같게 하면 이전꺼 작동X
 		System.out.println("********************************");
 		System.out.println("이름: "+name);  // super.name 가능
 		System.out.println("나이: "+age);
