@@ -51,5 +51,9 @@ public class Circle {
 	public String toString() {
 		return "Circle [lineColor= " + lineColor + ", fillColor= " + fillColor + ", radius= " + radius + "]";
 	}
+	
+	public void draw() {
+		System.out.println("선 색: "+lineColor+", 면 색: "+fillColor+", 반지름: "+radius+" 원을 그렸습니다.");
+	}
 
 }
