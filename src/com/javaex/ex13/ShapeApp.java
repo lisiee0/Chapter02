@@ -4,11 +4,11 @@ public class ShapeApp {
 
 	public static void main(String[] args) {
 		
-		Ractangle r01= new Ractangle("빨강", "노랑", 5, 5);
-		Ractangle r02= new Ractangle("파랑", "노랑", 10, 20);
-		Ractangle r03= new Ractangle("빨강", "빨강", 55, 77);
+		Rectangle r01= new Rectangle("빨강", "노랑", 5, 5);
+		Rectangle r02= new Rectangle("파랑", "노랑", 10, 20);
+		Rectangle r03= new Rectangle("빨강", "빨강", 55, 77);
 		
-		Ractangle[] rArray= new Ractangle[3];
+		Rectangle[] rArray= new Rectangle[3];
 		
 		rArray[0]= r01;
 		rArray[1]= r02;
