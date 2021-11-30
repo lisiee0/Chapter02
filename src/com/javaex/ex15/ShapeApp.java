@@ -14,6 +14,8 @@ public class ShapeApp {
 		sArray[1]= c01;
 		sArray[2]= t01;
 		
+		
+		// 각자의 draw 메소드로 출력
 		for(int i= 0; i<sArray.length; i++) {
 			sArray[i].draw();
 		}
