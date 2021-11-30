@@ -23,6 +23,12 @@ public class Student extends Person	{
 		this.schoolName = schoolName;
 	}
 	
+	
+	@Override
+	public String toString() {
+		return "Student [schoolName=" + schoolName + "]";
+	}
+
 	public void showInfo() {
 		System.out.println("====================================");
 		System.out.println("이름: "+name+", 나이: "+age+"입니다.");
