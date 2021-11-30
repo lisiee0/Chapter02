@@ -42,4 +42,7 @@ public class Shape {
 		return "Shape [lineColor=" + lineColor + ", fillColor=" + fillColor + "]";
 	}
 	
+	public void draw() {
+		
+	}
 }
