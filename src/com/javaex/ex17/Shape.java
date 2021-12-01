@@ -37,11 +37,12 @@ public abstract class Shape {
 	}
 
 	// 메소드 일반
-		@Override
+	@Override
 	public String toString() {
 		return "Shape [lineColor=" + lineColor + ", fillColor=" + fillColor + "]";
 	}
 	
+	// abstract 사용하기 
 	public abstract void draw();
 	
 	public abstract double area();
