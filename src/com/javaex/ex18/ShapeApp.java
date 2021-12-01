@@ -25,10 +25,17 @@ public class ShapeApp {
 		dArray[2]= t01;
 		dArray[3]= p01;
 		
+		// 그리기
 		for(int i= 0; i<dArray.length; i++) {
 			dArray[i].draw();
 		}
 		
-		
+		// 면적출력
+		for(int i= 0; i<dArray.length; i++) {
+			if(dArray[i] instanceof Shape) { 
+				// 지금주소의 인스턴스 Shape틀에서 만들어진건지?
+			System.out.println(((Shape)dArray[i]).area());	
+			}
+		}	
 	}
 }

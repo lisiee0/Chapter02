@@ -1,6 +1,6 @@
 package com.javaex.ex18;
 
-public class Point extends Shape implements Drawable {
+public class Point implements Drawable {
 	
 	// 필드
 	private int x;
@@ -43,8 +43,5 @@ public class Point extends Shape implements Drawable {
 	public void draw() {
 		System.out.println("x= "+x+", y= "+y+" 점을 그렸습니다.");
 	}
-	
-	public double area() {
-		return 0;
-	}
+
 }
