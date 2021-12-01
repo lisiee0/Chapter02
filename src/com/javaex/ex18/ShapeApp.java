@@ -30,10 +30,10 @@ public class ShapeApp {
 			dArray[i].draw();
 		}
 		
-		// 면적출력
+		// 면적출력 (Point 제외하고) bcuz point에는 area()가 없어서 그냥 출력하면 오류
 		for(int i= 0; i<dArray.length; i++) {
 			if(dArray[i] instanceof Shape) { 
-				// 지금주소의 인스턴스 Shape틀에서 만들어진건지?
+				// 지금주소의 인스턴스 Shape에서 만들어진건지?
 			System.out.println(((Shape)dArray[i]).area());	
 			}
 		}	
