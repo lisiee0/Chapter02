@@ -1,6 +1,6 @@
 package com.javaex.ex17;
 
-public class Shape {
+public abstract class Shape {
 	
 	
 	// 필드
@@ -42,11 +42,7 @@ public class Shape {
 		return "Shape [lineColor=" + lineColor + ", fillColor=" + fillColor + "]";
 	}
 	
-	public void draw() {
-		
-	}
+	public abstract void draw();
 	
-	public double area() {
-		return 0;
-	}
+	public abstract double area();
 }

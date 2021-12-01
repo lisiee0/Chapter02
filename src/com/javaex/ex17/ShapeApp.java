@@ -20,6 +20,8 @@ public class ShapeApp {
 			sArray[i].draw();
 		}
 		*/
+		
+		
 		/*
 		Rectangle r01= new Rectangle("빨강", "빨강", 5, 10);
 		System.out.println(r01.area());
@@ -30,16 +32,13 @@ public class ShapeApp {
 		Triangle t01= new Triangle("노랑", "노랑", 5, 10);
 		System.out.println(t01.area());
 		*/
+		
+		
 		Shape[] sArray= new Shape[3];
 		
 		Shape r01= new Rectangle("빨강", "빨강", 5, 10);
-		System.out.println(r01.area());
-		
 		Shape c01= new Circle("파랑", "파랑", 5);
-		System.out.println(c01.area());
-		
 		Shape t01= new Triangle("노랑", "노랑", 5, 10);
-		System.out.println(t01.area());
 		
 		sArray[0]= r01;
 		sArray[1]= c01;
